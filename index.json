@@ -1,5 +1,5 @@
 {
-   "updated_at": "2025-12-23T00:46:22.910248345Z",
+   "updated_at": "2025-12-24T00:47:06.199807453Z",
    "packages": [
       {
          "id": "pkg:golang/github.com/aquasecurity/trivy",
