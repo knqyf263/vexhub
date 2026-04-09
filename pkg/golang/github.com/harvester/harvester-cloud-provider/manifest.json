@@ -3,7 +3,7 @@
     "Sources": [
         {
             "Path": "scan.openvex.json",
-            "URL": "https://github.com/rancher/vexhub/blob/d26a947de79d01f82b9e6714ad3233b280aabe7e/pkg/golang/github.com/harvester/harvester-cloud-provider/scan.openvex.json"
+            "URL": "https://github.com/rancher/vexhub/blob/ff73489efc4313ed35e85c4baac76c0e874d9575/pkg/golang/github.com/harvester/harvester-cloud-provider/scan.openvex.json"
         }
     ]
 }
