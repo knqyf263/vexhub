@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-24c262887457d4c4ac93d1dd36d0bb69349edaefb42011e29d5731a3f885aaf8",
+  "@id": "https://openvex.dev/docs/public/vex-9ad55aa892bf7a348f0453d4f957e3986ccade03e4c5ecf340edcc8189ec00a8",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -2871,6 +2871,28 @@
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
           "subcomponents": [
             {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47911",
+        "aliases": [
+          "GO-2026-4440"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
               "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             }
           ]
@@ -2993,6 +3015,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47911",
+        "aliases": [
+          "GO-2026-4440"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47911",
+        "aliases": [
+          "GO-2026-4440"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47911",
+        "aliases": [
+          "GO-2026-4440"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47913",
         "aliases": [
           "GO-2025-4116"
@@ -3056,6 +3144,28 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -3169,6 +3279,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47913",
+        "aliases": [
+          "GO-2025-4116"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47914",
         "aliases": [
           "GO-2025-4135",
@@ -3235,6 +3411,29 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -3350,6 +3549,75 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47914",
+        "aliases": [
+          "GO-2025-4135",
+          "GHSA-f6x5-jh6r-wrfv"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -3614,6 +3882,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.0",
           "subcomponents": [
             {
@@ -3718,6 +4009,75 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58181",
+        "aliases": [
+          "GO-2025-4134",
+          "GHSA-j5w8-q4qc-rx2x"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -4005,6 +4365,28 @@
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
           "subcomponents": [
             {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58190",
+        "aliases": [
+          "GO-2026-4441"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
               "@id": "pkg:golang/golang.org/x/net@v0.7.0"
             }
           ]
@@ -4124,6 +4506,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58190",
+        "aliases": [
+          "GO-2026-4441"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58190",
+        "aliases": [
+          "GO-2026-4441"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58190",
+        "aliases": [
+          "GO-2026-4441"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -4928,6 +5376,44 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-71261"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/harvester/harvester@v0.0.0-20240116061230-20e0fc24b786"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This CVE only affects the Rancher/Harvester integration UI workflow. Projects that import the github.com/harvester/harvester Go package is unaffected.",
+      "timestamp": "2026-06-22T20:13:27Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-71261"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/harvester/harvester@v1.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This CVE only affects the Rancher/Harvester integration UI workflow. Projects that import the github.com/harvester/harvester Go package is unaffected.",
+      "timestamp": "2026-06-22T20:13:27Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-24051"
       },
       "products": [
@@ -4998,6 +5484,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25680",
+        "aliases": [
+          "GO-2026-5028"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -5035,6 +5543,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-25680",
+        "aliases": [
+          "GO-2026-5028"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25680",
+        "aliases": [
+          "GO-2026-5028"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25680",
+        "aliases": [
+          "GO-2026-5028"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-25681",
         "aliases": [
           "GO-2026-5029"
@@ -5076,6 +5650,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25681",
+        "aliases": [
+          "GO-2026-5029"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -5123,6 +5719,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-25681",
+        "aliases": [
+          "GO-2026-5029"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25681",
+        "aliases": [
+          "GO-2026-5029"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-25681",
+        "aliases": [
+          "GO-2026-5029"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-27136",
         "aliases": [
           "GO-2026-5030"
@@ -5164,6 +5826,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27136",
+        "aliases": [
+          "GO-2026-5030"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -5208,6 +5892,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27136",
+        "aliases": [
+          "GO-2026-5030"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27136",
+        "aliases": [
+          "GO-2026-5030"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27136",
+        "aliases": [
+          "GO-2026-5030"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -5274,6 +6024,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32282",
+        "aliases": [
+          "GO-2026-4864"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -5343,6 +6115,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-32282",
+        "aliases": [
+          "GO-2026-4864"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32282",
+        "aliases": [
+          "GO-2026-4864"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32282",
+        "aliases": [
+          "GO-2026-4864"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-32288",
         "aliases": [
           "GO-2026-4869"
@@ -5406,6 +6244,28 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32288",
+        "aliases": [
+          "GO-2026-4869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -5472,6 +6332,72 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32288",
+        "aliases": [
+          "GO-2026-4869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32288",
+        "aliases": [
+          "GO-2026-4869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32288",
+        "aliases": [
+          "GO-2026-4869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -5529,6 +6455,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/grpc@v1.73.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33186",
+        "aliases": [
+          "GO-2026-4762",
+          "GHSA-p77j-4mvh-x3m3"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.2",
           "subcomponents": [
             {
@@ -5590,6 +6539,75 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-33186",
+        "aliases": [
+          "GO-2026-4762",
+          "GHSA-p77j-4mvh-x3m3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/grpc@v1.73.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33186",
+        "aliases": [
+          "GO-2026-4762",
+          "GHSA-p77j-4mvh-x3m3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/grpc@v1.73.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33186",
+        "aliases": [
+          "GO-2026-4762",
+          "GHSA-p77j-4mvh-x3m3"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/google.golang.org/grpc@v1.73.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-33811",
         "aliases": [
           "GO-2026-4981"
@@ -5653,6 +6671,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33811",
+        "aliases": [
+          "GO-2026-4981"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -5719,6 +6759,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33811",
+        "aliases": [
+          "GO-2026-4981"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33811",
+        "aliases": [
+          "GO-2026-4981"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33811",
+        "aliases": [
+          "GO-2026-4981"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -5861,6 +6967,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/sys@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39824",
+        "aliases": [
+          "GO-2026-5024"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -5895,6 +7023,72 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39824",
+        "aliases": [
+          "GO-2026-5024"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/sys@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39824",
+        "aliases": [
+          "GO-2026-5024"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/sys@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39824",
+        "aliases": [
+          "GO-2026-5024"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/sys@v0.34.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -5961,6 +7155,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39825",
+        "aliases": [
+          "GO-2026-4976"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6030,6 +7246,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-39825",
+        "aliases": [
+          "GO-2026-4976"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39825",
+        "aliases": [
+          "GO-2026-4976"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39825",
+        "aliases": [
+          "GO-2026-4976"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.7"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-39827",
         "aliases": [
           "GO-2026-5016"
@@ -6071,6 +7353,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39827",
+        "aliases": [
+          "GO-2026-5016"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6115,6 +7419,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39827",
+        "aliases": [
+          "GO-2026-5016"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39827",
+        "aliases": [
+          "GO-2026-5016"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39827",
+        "aliases": [
+          "GO-2026-5016"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -6169,6 +7539,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39828",
+        "aliases": [
+          "GO-2026-5014"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -6206,6 +7598,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-39828",
+        "aliases": [
+          "GO-2026-5014"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39828",
+        "aliases": [
+          "GO-2026-5014"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39828",
+        "aliases": [
+          "GO-2026-5014"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-39829",
         "aliases": [
           "GO-2026-5018"
@@ -6247,6 +7705,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39829",
+        "aliases": [
+          "GO-2026-5018"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6291,6 +7771,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39829",
+        "aliases": [
+          "GO-2026-5018"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39829",
+        "aliases": [
+          "GO-2026-5018"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39829",
+        "aliases": [
+          "GO-2026-5018"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -6345,6 +7891,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39830",
+        "aliases": [
+          "GO-2026-5017"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -6382,6 +7950,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-39830",
+        "aliases": [
+          "GO-2026-5017"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39830",
+        "aliases": [
+          "GO-2026-5017"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39830",
+        "aliases": [
+          "GO-2026-5017"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-39831",
         "aliases": [
           "GO-2026-5019"
@@ -6423,6 +8057,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39831",
+        "aliases": [
+          "GO-2026-5019"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6467,6 +8123,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39831",
+        "aliases": [
+          "GO-2026-5019"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39831",
+        "aliases": [
+          "GO-2026-5019"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39831",
+        "aliases": [
+          "GO-2026-5019"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -6521,6 +8243,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39832",
+        "aliases": [
+          "GO-2026-5006"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -6558,6 +8302,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-39832",
+        "aliases": [
+          "GO-2026-5006"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39832",
+        "aliases": [
+          "GO-2026-5006"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39832",
+        "aliases": [
+          "GO-2026-5006"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-39833",
         "aliases": [
           "GO-2026-5005"
@@ -6599,6 +8409,28 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39833",
+        "aliases": [
+          "GO-2026-5005"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6646,6 +8478,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-39833",
+        "aliases": [
+          "GO-2026-5005"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39833",
+        "aliases": [
+          "GO-2026-5005"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39833",
+        "aliases": [
+          "GO-2026-5005"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-39834",
         "aliases": [
           "GO-2026-5020"
@@ -6687,6 +8585,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39834",
+        "aliases": [
+          "GO-2026-5020"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6734,6 +8654,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-39834",
+        "aliases": [
+          "GO-2026-5020"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39834",
+        "aliases": [
+          "GO-2026-5020"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39834",
+        "aliases": [
+          "GO-2026-5020"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-39835",
         "aliases": [
           "GO-2026-5015"
@@ -6775,6 +8761,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39835",
+        "aliases": [
+          "GO-2026-5015"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -6819,6 +8827,72 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39835",
+        "aliases": [
+          "GO-2026-5015"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39835",
+        "aliases": [
+          "GO-2026-5015"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39835",
+        "aliases": [
+          "GO-2026-5015"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -6999,6 +9073,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42502",
+        "aliases": [
+          "GO-2026-5027"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -7036,6 +9132,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-42502",
+        "aliases": [
+          "GO-2026-5027"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42502",
+        "aliases": [
+          "GO-2026-5027"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42502",
+        "aliases": [
+          "GO-2026-5027"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-42506",
         "aliases": [
           "GO-2026-5025"
@@ -7087,6 +9249,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42506",
+        "aliases": [
+          "GO-2026-5025"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -7124,6 +9308,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-42506",
+        "aliases": [
+          "GO-2026-5025"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42506",
+        "aliases": [
+          "GO-2026-5025"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42506",
+        "aliases": [
+          "GO-2026-5025"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.42.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-42508",
         "aliases": [
           "GO-2026-5021"
@@ -7165,6 +9415,28 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42508",
+        "aliases": [
+          "GO-2026-5021"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -7209,6 +9481,72 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42508",
+        "aliases": [
+          "GO-2026-5021"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42508",
+        "aliases": [
+          "GO-2026-5021"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42508",
+        "aliases": [
+          "GO-2026-5021"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     },
     {
       "vulnerability": {
@@ -7263,6 +9601,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46595",
+        "aliases": [
+          "GO-2026-5023"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.4",
           "subcomponents": [
             {
@@ -7300,6 +9660,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-46595",
+        "aliases": [
+          "GO-2026-5023"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46595",
+        "aliases": [
+          "GO-2026-5023"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46595",
+        "aliases": [
+          "GO-2026-5023"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-46597",
         "aliases": [
           "GO-2026-5013"
@@ -7341,6 +9767,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46597",
+        "aliases": [
+          "GO-2026-5013"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -7388,6 +9836,72 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-46597",
+        "aliases": [
+          "GO-2026-5013"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46597",
+        "aliases": [
+          "GO-2026-5013"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46597",
+        "aliases": [
+          "GO-2026-5013"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-46598",
         "aliases": [
           "GO-2026-5033"
@@ -7429,6 +9943,28 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46598",
+        "aliases": [
+          "GO-2026-5033"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
     },
     {
       "vulnerability": {
@@ -7473,7 +10009,73 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46598",
+        "aliases": [
+          "GO-2026-5033"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:35Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46598",
+        "aliases": [
+          "GO-2026-5033"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:27:23Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-46598",
+        "aliases": [
+          "GO-2026-5033"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester-cloud-provider@v0.2.6-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/crypto@v0.40.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-06-23T02:26:59Z"
     }
   ],
-  "timestamp": "2026-06-19T19:37:36Z"
+  "timestamp": "2026-06-23T10:35:18Z"
 }
