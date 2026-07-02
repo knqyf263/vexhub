@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-88fc84319085979f24409b55a0a6dcceeb1d30c292d0bd28856b714ab433e5d9",
+  "@id": "https://openvex.dev/docs/public/vex-29cf5bcdd24cc95375efe5ba59f04fc8dc26108db24f2dfc20a897c884f93af8",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -2206,6 +2206,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-47910",
+        "aliases": [
+          "GO-2025-3955",
+          "CVE-2025-47910"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -2791,6 +2814,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58183",
+        "aliases": [
+          "GO-2025-4014",
+          "CVE-2025-58183"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -3652,6 +3698,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61724",
+        "aliases": [
+          "GO-2025-4015",
+          "CVE-2025-61724"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -4227,6 +4296,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61725",
+        "aliases": [
+          "GO-2025-4006",
+          "CVE-2025-61725"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -4963,6 +5055,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61726",
+        "aliases": [
+          "GO-2026-4341",
+          "CVE-2025-61726"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -5630,6 +5745,29 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-61728",
+        "aliases": [
+          "GO-2026-4342",
+          "CVE-2025-61728"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -8324,6 +8462,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27142",
+        "aliases": [
+          "GO-2026-4603"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -8622,6 +8782,25 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27145"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.26.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "NFS share manager has no external TLS connections; x509.VerifyHostname not in execute path",
+      "timestamp": "2026-07-01T00:22:11Z"
     },
     {
       "vulnerability": {
@@ -9226,6 +9405,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32282",
+        "aliases": [
+          "GO-2026-4864"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -10118,6 +10319,28 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-32288",
+        "aliases": [
+          "GO-2026-4869"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
     },
     {
       "vulnerability": {
@@ -10844,6 +11067,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-33811",
+        "aliases": [
+          "GO-2026-4981"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
     },
     {
       "vulnerability": {
@@ -11577,6 +11822,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39820",
+        "aliases": [
+          "GO-2026-4986"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -12271,6 +12538,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39823",
+        "aliases": [
+          "GO-2026-4982"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
     },
     {
       "vulnerability": {
@@ -13601,6 +13890,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39825",
+        "aliases": [
+          "GO-2026-4976"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -14295,6 +14606,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39826",
+        "aliases": [
+          "GO-2026-4980"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
     },
     {
       "vulnerability": {
@@ -15047,6 +15380,28 @@
       },
       "products": [
         {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.25.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-01T09:51:38Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42499",
+        "aliases": [
+          "GO-2026-4977"
+        ]
+      },
+      "products": [
+        {
           "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager@v1.11.3-rc1",
           "subcomponents": [
             {
@@ -15942,6 +16297,25 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-42504"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.26.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "NFS share manager has no MIME encoded-word header processing in execute path",
+      "timestamp": "2026-07-01T00:22:11Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-42506",
         "aliases": [
           "GO-2026-5025"
@@ -16555,7 +16929,26 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42507"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/longhorn/longhorn-share-manager",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.26.3"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "NFS share manager; net/textproto error path not reachable from adversary-controlled input",
+      "timestamp": "2026-07-01T00:22:11Z"
     }
   ],
-  "timestamp": "2026-06-29T19:08:07Z"
+  "timestamp": "2026-07-01T11:40:53Z"
 }
