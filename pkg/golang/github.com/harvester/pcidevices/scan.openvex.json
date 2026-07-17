@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-530b200e83cd3d74539e31de4cb01fbed7daf6fb18b3616858d09581f9772c69",
+  "@id": "https://openvex.dev/docs/public/vex-b7b502cb98e591b2a5fe98bf72f02ccd47cb0a72f5e5647b7bf57cc3af03ee1e",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -2973,6 +2973,29 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2024-45338",
+        "aliases": [
+          "GO-2024-3333",
+          "GHSA-w32m-9786-jp63"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2024-45339",
         "aliases": [
           "GO-2025-3372",
@@ -4074,6 +4097,44 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14525"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This vulnerability is a runtime exploit on live virtual machines with active guest agent running. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package, which Harvester components uses only for a handful of Go util functions.",
+      "timestamp": "2026-07-16T16:54:48Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14525"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This vulnerability is a runtime exploit on live virtual machines with active guest agent running. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package, which Harvester components uses only for a handful of Go util functions.",
+      "timestamp": "2026-07-16T16:54:48Z"
     },
     {
       "vulnerability": {
@@ -6434,6 +6495,29 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-22870",
+        "aliases": [
+          "GO-2025-3503",
+          "GHSA-qxp5-gwg8-xv66"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22872",
         "aliases": [
           "GO-2025-3595"
@@ -7622,6 +7706,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-22872",
+        "aliases": [
+          "GO-2025-3595"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47907",
         "aliases": [
           "GO-2025-3849"
@@ -8326,6 +8432,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-47911",
+        "aliases": [
+          "GO-2026-4440"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-47913",
         "aliases": [
           "GO-2025-4116"
@@ -11251,6 +11379,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-07-09T03:23:18Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-58190",
+        "aliases": [
+          "GO-2026-4441"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
     },
     {
       "vulnerability": {
@@ -12900,6 +13050,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-25680",
+        "aliases": [
+          "GO-2026-5028"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-25681",
         "aliases": [
           "GO-2026-5029"
@@ -13450,6 +13622,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-25681",
+        "aliases": [
+          "GO-2026-5029"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-27136",
         "aliases": [
           "GO-2026-5030"
@@ -13997,6 +14191,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-07-09T03:23:18Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-27136",
+        "aliases": [
+          "GO-2026-5030"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
     },
     {
       "vulnerability": {
@@ -16238,6 +16454,28 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-07-09T03:23:18Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-39822",
+        "aliases": [
+          "GO-2026-4970"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/stdlib@v1.26.4"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
     },
     {
       "vulnerability": {
@@ -23652,6 +23890,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-42502",
+        "aliases": [
+          "GO-2026-5027"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-42504"
       },
       "products": [
@@ -24240,6 +24500,28 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-42506",
+        "aliases": [
+          "GO-2026-5025"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/golang.org/x/net@v0.23.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-16T03:08:15Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-42508",
         "aliases": [
           "GO-2026-5021"
@@ -26525,7 +26807,121 @@
       "justification": "vulnerable_code_not_present",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-07-06T03:09:45Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6383"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Harvester components have no dependency on the virt-api component for RBAC authorization enforcement. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package, which Harvester components uses for a handful of Go util functions.",
+      "timestamp": "2026-07-16T16:54:48Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-6383"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Harvester components have no dependency on the virt-api component for RBAC authorization enforcement. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package, which Harvester components uses for a handful of Go util functions.",
+      "timestamp": "2026-07-16T16:54:48Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-7374"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This vulnerability is found in the virt-handler component which Harvester components do not spin up nor interact directly with during runtime. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package. Harvester components only depends on this package for a handful of Go util functions.",
+      "timestamp": "2026-07-15T23:07:06Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-7374"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This vulnerability is found in the virt-handler component which Harvester components do not spin up nor interact directly with during runtime. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package. Harvester components only depends on this package for a handful of Go util functions.",
+      "timestamp": "2026-07-15T23:07:06Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-9804"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.5.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This vulnerability is found in the virt-exportserver component which Harvester components do not spin up nor interact directly with during runtime. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package. Harvester components only depends on this package for a handful of Go util functions.",
+      "timestamp": "2026-07-15T23:07:06Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-9804"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/pcidevices",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.7.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This vulnerability is found in the virt-exportserver component which Harvester components do not spin up nor interact directly with during runtime. The kubevirt.io/kubevirt package is a transitive dependency from the github.com/harvester/harvester package. Harvester components only depends on this package for a handful of Go util functions.",
+      "timestamp": "2026-07-15T23:07:06Z"
     }
   ],
-  "timestamp": "2026-07-11T16:33:41Z"
+  "timestamp": "2026-07-16T17:03:32Z"
 }
