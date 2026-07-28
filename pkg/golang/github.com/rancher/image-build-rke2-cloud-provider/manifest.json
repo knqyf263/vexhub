@@ -3,7 +3,7 @@
     "Sources": [
         {
             "Path": "scan.openvex.json",
-            "URL": "https://github.com/rancher/vexhub/blob/ed960d43a5932d0072dc0d474511dc4af9b28fa0/pkg/golang/github.com/rancher/image-build-rke2-cloud-provider/scan.openvex.json"
+            "URL": "https://github.com/rancher/vexhub/blob/556109491f407d97f28a2e94fc18dacebdf4604c/pkg/golang/github.com/rancher/image-build-rke2-cloud-provider/scan.openvex.json"
         }
     ]
 }
