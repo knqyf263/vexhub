@@ -1,6 +1,6 @@
 {
   "@context": "https://openvex.dev/ns/v0.2.0",
-  "@id": "https://openvex.dev/docs/public/vex-83f76753582ed2b1a48185b585952350428aa98ca1f873925edc721997d41ed4",
+  "@id": "https://openvex.dev/docs/public/vex-bd7a7c6a088bb9c1e1e4428ed3993c361e8978ec6f07e0980d44cf97f39b9c27",
   "author": "Rancher Security team",
   "version": 1,
   "statements": [
@@ -5210,6 +5210,25 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-13281"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.32.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Harvester has not direct dependency on the kube-controller-manager. The k8s.io/kubernetes Go package is a transitive dependency from the github.com/rancher/rancher package.",
+      "timestamp": "2026-07-29T04:38:51Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-14525"
       },
       "products": [
@@ -9586,6 +9605,25 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-5187"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/k8s.io/kubernetes@v1.32.5"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "Harvester has not direct dependency on the K8s NodeRestriction admission controller. The k8s.io/kubernetes Go package is a transitive dependency from the github.com/rancher/rancher package.",
+      "timestamp": "2026-07-29T04:38:51Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-52565",
         "aliases": [
           "GO-2025-4097",
@@ -11264,6 +11302,139 @@
       "justification": "vulnerable_code_not_in_execute_path",
       "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
       "timestamp": "2026-06-19T00:00:00Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64324"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's hostDisk feature directly in its Go code.",
+      "timestamp": "2026-07-29T04:38:51Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64432"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's virt-api component directly in its Go code.",
+      "timestamp": "2026-07-29T04:38:51Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64433"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's virt-launcher component directly in its Go code.",
+      "timestamp": "2026-07-29T04:38:51Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64434"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's virt-handler component directly in its Go code.",
+      "timestamp": "2026-07-29T00:34:13Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64435"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's virt-controller component directly in its Go code.",
+      "timestamp": "2026-07-29T00:34:13Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64436"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's virt-handler component directly in its Go code.",
+      "timestamp": "2026-07-29T00:34:13Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-64437"
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/kubevirt.io/kubevirt@v1.6.0"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "This is a kubevirt runtime exploit. Harvester does not use kubevirt's virt-handler component directly in its Go code.",
+      "timestamp": "2026-07-29T00:34:13Z"
     },
     {
       "vulnerability": {
@@ -21209,6 +21380,328 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:10:46Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.7.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:20:08Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.7.2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:14:33Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.7.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:21:03Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.7.2-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:19:12Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.7.2-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:17:22Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.7.3-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:11:36Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.8.1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:16:33Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.8.1-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:20:12Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.8.1-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:18:22Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.8.2-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:15:33Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.9.0-rc1",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:13:43Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.9.0-rc2",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:12:40Z"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42306",
+        "aliases": [
+          "GO-2026-5617",
+          "GHSA-rg2x-37c3-w2rh"
+        ]
+      },
+      "products": [
+        {
+          "@id": "pkg:golang/github.com/harvester/harvester@v1.9.0-rc3",
+          "subcomponents": [
+            {
+              "@id": "pkg:golang/github.com/docker/docker@v25.0.6+incompatible"
+            }
+          ]
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_present",
+      "impact_statement": "Govulncheck determined that the vulnerable code isn't called",
+      "timestamp": "2026-07-29T03:10:46Z"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-42499"
       },
       "products": [
@@ -25258,5 +25751,5 @@
       "timestamp": "2026-06-19T00:00:00Z"
     }
   ],
-  "timestamp": "2026-07-26T06:32:28Z"
+  "timestamp": "2026-07-29T06:21:41Z"
 }
